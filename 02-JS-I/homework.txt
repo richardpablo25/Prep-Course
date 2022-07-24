@@ -1,0 +1,12 @@
+Variables: una variable es como una caja que va a contener un dato que vamos a utilizar posteriormente.
+
+String: Es un tipo de variable que contiene texto y vá definido entre comillas
+
+Funciones: Una función es un conjunto de instrucciones que realiza una tarea, puede o no tener argumentos que son variables 
+que se deben indicar al definirla para hacer operaciones con ellos. Se finaliza la función con la instrucción return y este devuelve
+un valor al que llama a la función.
+
+Declaraciones if: es una instrucción condicional que se ejecuta cuando se cumple una condición, sino se ejecutará el comando else.
+
+Valores Booleanos: tipo de datos de dos estados, verdadero o falso.
+
