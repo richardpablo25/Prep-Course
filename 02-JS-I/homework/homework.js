@@ -10,16 +10,16 @@ const nuevoNum = 25;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = true;
-// pongo true sino no pasa
+const nuevaResta  = 10 - 5 === 5;
+
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = true;
-// pongo true sino no pasa
+const nuevaMultiplicacion = 10 * 4 === 40 ;
+
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = true ;
-// pongo true sino no pasa
+const nuevoModulo = 21 % 5 === 1;
+
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -243,11 +243,13 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (length.letra = 1 && letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' ){
-    return ("Es vocal")
-  } else {
+  if (letra.lenght > 1  ){
     return ("Dato incorrecto")
+  } 
+  if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' ){
+    return ("Es vocal")
   }
+  return "Dato incorrecto"
 }
 
 
